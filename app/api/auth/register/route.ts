@@ -30,7 +30,7 @@ export async function POST(request: NextRequest) {
 		});
 
 		return NextResponse.json(
-			{ message: "User registered sucessfully" },
+			{ message: "User registered successfully" },
 			{ status: 201 }
 		);
 
